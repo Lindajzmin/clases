@@ -1,0 +1,242 @@
+---
+title: "Ética Social y Profesional"
+subtitle: "UNIDAD I: Antecedentes de la Ética como <br> eje desarrollador de valores"
+author: "Linda Cabrera Orellana"
+date: "08 junio, 2022"
+output:
+    xaringan::moon_reader:
+        css:
+          - default
+          - css/mi-tema.css
+          - rladies
+          - rladies-fonts
+        lib_dir: libs
+        seal: false
+        self_contained: true
+        nature:
+          highlightStyle: googlecode
+          highlightLines: true
+          countIncrementalSlides: false
+          ratio: "16:9"
+          beforeInit: "macros.js"
+---
+
+
+```{r configuracion, include = FALSE}
+library(knitr)
+library(tidyverse)
+library(datos)
+library(fontawesome)
+library(xaringanExtra)
+# set default options
+opts_chunk$set(echo=FALSE,
+               warning=FALSE,
+               collapse = TRUE,
+               dpi = 300)
+knit_engines$set("yaml", "markdown")
+
+xaringanExtra::use_tile_view()
+xaringanExtra::use_clipboard()
+xaringanExtra::use_share_again()
+xaringanExtra::style_share_again(
+  share_buttons = c("twitter", "linkedin", "pocket")
+)
+```
+
+class: right, middle, inverse, titular
+background-image: url(https://www.eltiempo.com/files/image_640_428/uploads/2019/12/16/5df803eda01af.jpeg)
+background-size: contain
+background-position: -20% 0%
+
+<img src="img/logo_utmach.png" width="125px"/>
+# `r rmarkdown::metadata$title` 
+## `r rmarkdown::metadata$subtitle` 
+### `r rmarkdown::metadata$author`
+### `r rmarkdown::metadata$date`
+
+---
+
+class: middle, center
+
+# Sobre la Unidad 1
+
+
+### 1. ¿Qué entendemos por filosofía de la ética y de la moral?
+### 2. Principios éticos y morales.
+### 3. Código morales. Los dilemas morales.
+### 4. La ética y la moral en la vida cotidiana y en el aula.
+
+---
+
+class: middle, center, inverse
+
+`r fontawesome::fa("users", height = "4em")`
+# Principios éticos y morales
+
+---
+
+background-image: url(https://i.pinimg.com/originals/06/8b/88/068b88b7fcc2bf05a0c7d999d42644c8.png)
+background-size: cover
+
+---
+
+# `r fontawesome::fa("chess-queen")` Principios éticos y morales
+
+Los principios éticos y morales han regido por siglos a la humanidad y constituyen la base del ordenamiento moral de la sociedad, algunos están marcados de manera universal y otros se establecen de manera particular en las propias familias de acuerdo con las costumbres y las tradiciones.
+
+
+## Principios universales
+
+Los principios éticos son verdades evidentes que corresponden a convicciones morales arraigadas de aplicación universal y en una u otra forma, aparecen incorporadas a la **Declaración Universal de los Derechos Humanos de las Naciones Unidas** (1948).
+
+Los _Derechos Humanos_ se llaman así porque corresponden a todo ser humano, por el hecho de serlo. Estos derechos, como los principios morales que les sirven de germen, son personales, imprescriptibles e inviolables, lo que evidencia que su violación es inmoral.
+
+Son principios éticos fundamentales los siguientes:
+
+---
+
+.pull-left[
+
+## Principio del bien:
+
+Haz el bien y evita el mal, es el principio ético esencial connatural al ser humano, y el que contiene implícitamente a todos los demás principios éticos. Bien es lo que está de acuerdo con la recta razón. Es la última perfección. Es el ideal de la vida moral. Es todo lo que contribuye al desarrollo armonioso e integral de la personalidad. Mal es lo que va contra la naturaleza racional del ser humano, contra el orden moral. Es todo lo que nos degrada, nos destruye, nos envilece. El mal es imperfección. El mal moral es antivalor, un valor negativo. La práctica del bien conduce a la virtud, entendiendo por virtud el hábito o disposición de la persona a practicar el bien y evitar el mal.
+]
+
+
+.pull-right[
+
+## Principio de la vida
+
+Para los cristianos, a la luz de la fe, la vida es obra del amor de Dios. Es un don de Dios. La vida es el primero y más importante derecho del hombre. Es por lo tanto, soporte de los demás derechos humanos, por lo que es inmoral todo lo que vaya en detrimento de este derecho, siendo el más aberrante acto de inmoralidad la destrucción de la vida misma. Se relacionan directamente con el derecho a la vida, dos obligaciones importantes; la conservación de la vida y el desarrollo pleno de la personalidad. A la par de que toda persona debe cuidar la vida, tiene también el deber de construirse a sí mismo, esforzarse por incrementar y actualizar sus conocimientos, desarrollar sus habilidades y destrezas, mejorar sus hábitos y actitudes y perfeccionar sus relaciones con los demás. La Declaración Universal de los Derechos Humanos menciona algunos artículos al respecto.
+]
+
+
+---
+
+.pull-left[
+
+## Principio de la dignidad:
+
+Toda persona tiene valor por sí misma. Dignidad es sinónimo de grandeza, importancia, valor, merecimiento, buena reputación. La dignidad del hombre se refiere a la importancia que tiene todo ser humano por el hecho de que es un ser humano. Conlleva el respeto que nos merece su persona, sus palabras, sus sentimientos, sus deseos, intereses y aspiraciones. El respeto a la dignidad humana es la base de la consideración y del trato educado y cortés que debemos a todas las personas.
+]
+
+
+.pull-right[
+
+## Principio del amor
+
+Toda persona necesita dar y recibir amor. _“Tener amor es saber soportar; es ser bondadoso; es no tener envidia, ni ser presumido, ni orgulloso, ni grosero, ni egoísta; es no enojarse ni guardar rencor; es no alegrarse de las injusticias, sino de la verdad”_ (I Corintios, Cap. 13:4-6). El amor es esencial para el desarrollo sano de la personalidad y la preservación de la salud mental. El amor que se recibe fortalece la autoestima y la seguridad que el individuo tiene en sí mismo. El amor es tan importante para el desarrollo humano como el agua para las plantas.
+
+Hay diversas categorías de amor: amor a Dios, amor a la familia, amor a la pareja, amistad, amor a los demás. Es un principio cristiano: _“Amar a Dios sobre todas las cosas y a tu prójimo como a ti mismo”_. Dice la Declaración Universal de Derechos Humanos: _“Todos los seres humanos... deben comportarse fraternalmente los unos con los otros”_ (Art. 1).
+]
+
+
+---
+
+
+.pull-left[
+
+## Principio de la igualdad:
+
+Todos somos fundamentalmente iguales. Nadie vale más que nadie. Nadie vale menos que nadie. Podremos ser diferentes en talento, riquezas, poder, pero esencialmente somos iguales. De acuerdo con este principio es nuestro deber ser respetuosos, cordiales, serviciales, atentos, con todos los seres humanos y no solamente con las personas ricas o importantes. La humanidad ha recorrido un largo camino hacia la meta de la igualdad en las relaciones humanas y en las relaciones jurídicas, con el propósito de superar los desafíos de la discriminación racial y el trato desigual a la mujer, a discapacitados, etcétera.
+]
+
+
+.pull-right[
+
+## Principio de la libertad
+
+La persona por naturaleza es un ser libre y para la libertad. Es precisamente la autonomía moral la que le permite decidir, con libertad y responsabilidad entre el bien y el mal. La Declaración Universal de los Derechos Humanos señala: _“Todos los seres humanos nacen libres e iguales en dignidad y derechos y, dotados como están de razón y conciencia...”_ (Art. 1).
+]
+
+---
+
+.pull-left[
+
+## Principio de la responsabilidad:
+
+Toda persona, por el hecho de ser libre y estar dotada de razón, es responsable de sus decisiones y actos y de las consecuencias que derivan de ellos. Si por su culpa o negligencia causa un daño tiene la obligación de repararlo. Para que exista responsabilidad moral se requiere que se den los siguientes requisitos: Libertad: Es decir facultad y autonomía para actuar de una manera o de otra, según su decisión.
+
+Conciencia: Saber lo que se está haciendo, o lo que se va a hacer, y si la acción es buena o mala.
+
+Voluntad: Desear lo que se va a hacer. Limitan o excluyen, según el caso, la responsabilidad moral, la ignorancia sobre los deberes morales; la coacción o empleo de la fuerza, que obliga a la persona a actuar contra su voluntad; y el miedo y los trastornos psíquicos que alteran sus condiciones mentales.
+]
+
+
+.pull-right[
+
+## Principio de equidad o justicia natural
+
+La equidad es, ante todo, una disposición interior del alma que nos inclina de un modo constante a dar a cada uno lo que le corresponde (Ulpiano). La equidad es la base de la conducta imparcial y objetiva. En relación con este principio, la Declaración Universal de los Derechos Humanos dice: _“Toda persona que trabaja tiene derecho a una remuneración equitativa y satisfactoria, que le asegure, así como a su familia, una existencia conforme a la dignidad humana...“_ (art. 23).
+]
+
+---
+
+.pull-left[
+## Principio de solidaridad:
+
+Se refiere a la disposición de los seres humanos a unir esfuerzos y prestarse ayuda mutua. Todos necesitamos de los demás para atender nuestras necesidades y sobrevivir, del mismo modo que los demás necesitan de nosotros. Sólo viviendo en comunidad podemos alcanzar nuestra calidad humana y realizarnos. Este hecho nos plantea el deber de fortalecer la vida comunitaria, trabajando por la paz, la unidad y el bien de todos.
+]
+
+
+.pull-right[
+
+## Principio de la educación
+
+Toda persona tiene el deber y el derecho de educarse. Este principio ético es contemplado como un derecho de rango constitucional en diversos países. Directamente conectado con este principio se encuentra el deber y el derecho a adquirir la mayor capacitación profesional posible, de acuerdo con las propias aptitudes y capacidades.
+]
+
+---
+
+background-image: url(https://i.ytimg.com/vi/ZmqOJw1JilQ/maxresdefault.jpg)
+background-size: cover
+
+---
+
+# `r fontawesome::fa("chess-queen")` Principios éticos y morales de la sociedad
+
+Algunos principios éticos y morales que requiere una sociedad para vivir en armonía son:
+
+.pull-left[
+## Ética cívica
+
+El Estado requiere implementar ciertas acciones para mantener una relación armónica con la ciudadanía para lo cual ésta organiza instituciones que trabajan para regular la conducta de los individuos.
+
+## Democracia ciudadana
+
+Todas y cada una de las acciones implementadas por el Estado deben ser aplicadas a los individuos por igual, sin distinción de sexo, lengua o grupo social.
+]
+
+.pull-right[
+## Libertad pública
+
+Fortalece en los individuos la realización de acciones acordes a su manera de ser y de pensar, siempre y cuando estén enfocadas hacia un bien común, sin afectar los intereses de otros.
+
+## Fines comunes
+
+Las relaciones políticas, ideológicas, económicas, religiosas y morales deben estar orientadas a la integración social de todos los individuos, para permitirles una normatividad que favorezca la paz entre ellos y brinde los beneficios que les ayude a vivir mejor.
+]
+
+---
+
+# `r fontawesome::fa("chess-queen")` Principios éticos y morales de la sociedad
+
+Toda persona ya sea hombre o mujer que tenga una profesión específica debe respetar ciertos criterios que le permiten llevar a cabo su actividad de manera satisfactoria, para evitar caer en faltas que perjudiquen a los demás.
+
+Los siguientes son algunos principios éticos y morales que debe seguir todo profesionista:
+
+1. Responsabilidad hacia los demás.
+
+2. Responsabilidad hacia los colegas.
+
+3. Responsabilidad hacia la profesión.
+
+4. Responsabilidad hacia la comunidad.
+
+
+### Para concluir…
+
+_Las normas regulan las relaciones entre las personas y facilitan la convivencia. Si no existiesen habría mucho más conflictos y disputas y sería difícil vivir juntos._
+
+_Paula, Revista Aula, núm. 39_
+
